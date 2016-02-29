@@ -1,0 +1,99 @@
+body{
+    margin:0;
+}
+#myImg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin:-60px -80px;
+    width:160px;
+    height:120px;
+    border: 3px solid #9f3;
+    padding: 0;
+    border-radius: 10px;
+    display:block;
+}
+#butnsBlock{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    width: 100%;
+    background-color: #000;
+    font-size:15px;
+    margin:0;
+    padding: 5px;
+    text-align:center;
+}
+a.butn:link,
+a.butn:visited{
+    display:inline-block;
+    color: #fff;
+    margin:5px 15px;
+}
+a.butn:hover{
+    color:#e78800;
+    text-decoration:none; 
+}
+/*
+.zoomIn{
+    -webkit-transform: scale(2,2);
+    -moz-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+    -o-transform: scale(2,2);
+    transform: scale(2,2);
+}
+.zoomOut{
+    -webkit-transform: scale(0.5,0.5);
+    -moz-transform: scale(0.5,0.5);
+    -ms-transform: scale(0.5,0.5);
+    -o-transform: scale(0.5,0.5);
+    transform: scale(0.5,0.5);
+}
+.zoomStart{
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+}
+*/
+/*  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)  */
+ 
+ /* import font */
+@font-face { 
+  font-family: 'FontAwesome';
+  src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.eot?v=4.5.0');
+  src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* general class */
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa-2x {
+  font-size: 2em;
+}
+/* make icos equal */
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+/* particular icos */
+.fa-search-minus:before {
+    content: "\f010";
+}
+.fa-search-plus:before {
+    content: "\f00e";
+}
+.fa-search:before {
+    content: "\f002";
+}
+/* END of fonts  */
